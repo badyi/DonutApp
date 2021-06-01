@@ -40,8 +40,8 @@ final class DonutViewController: UIViewController {
         
         nextButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         nextButton.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        nextButton.widthAnchor.constraint(equalToConstant: 100).isActive = true
-        nextButton.heightAnchor.constraint(equalToConstant: 100).isActive = true
+        nextButton.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        nextButton.heightAnchor.constraint(equalToConstant: 200).isActive = true
         
         donut.widthAnchor.constraint(equalToConstant: 200).isActive = true
         donut.heightAnchor.constraint(equalToConstant: 200).isActive = true
